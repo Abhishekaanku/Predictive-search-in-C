@@ -96,7 +96,7 @@ int main() {
     for(i=0;i<27;++i) {
         head->ch[i]=NULL;
     }
-    FILE *fp=fopen("temp1.txt","r");
+    FILE *fp=fopen("word_list.txt","r");
     char temp[30];
     while(fgets(temp,50,fp)) {
         if(strcmp(temp,"\n")!=0) {
